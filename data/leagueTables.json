@@ -1,29 +1,63 @@
 {
-    "EPL": {
-        "name": "English Premier League",
-        "logo": "/logos/logo.png",
-        "teams": [
-            { "pos": 1, "team": "Man City", "played": 38, "win": 6, "draw": 4, "goalsfor": 56, "goalsAgainst": 38, "points": 89 },
-            { "pos": 2, "team": "Arsenal", "played": 38, "win": 6, "draw": 4, "goalsfor": 35, "goalsAgainst": 34, "points": 84 },
-            { "pos": 3, "team": "Liverpool", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 82 },
-            { "pos": 4, "team": "Aston Villa", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 68 },
-            { "pos": 5, "team": "Tottenham", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 66 },
-            { "pos": 18, "team": "Luton", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 26 },
-            { "pos": 19, "team": "Burnley", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 24 },
-            { "pos": 20, "team": "Sheffield Utd", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 16 }
-        ]
+  "competitions": [
+    {
+      "id": "epl",
+      "name": "Premier League",
+      "country": "England",
+      "season": "2025/26",
+      "logo": "/logos/competitions/epl.png",
+      "table": [
+        { "pos": 1, "team": "Arsenal", "played": 30, "win": 20, "draw": 7, "goalsfor": 63, "goalsAgainst": 26, "points": 67 },
+        { "pos": 2, "team": "Man City", "played": 30, "win": 19, "draw": 6, "goalsfor": 62, "goalsAgainst": 29, "points": 63 },
+        { "pos": 3, "team": "Liverpool", "played": 30, "win": 17, "draw": 7, "goalsfor": 59, "goalsAgainst": 33, "points": 58 },
+        { "pos": 4, "team": "Aston Villa", "played": 30, "win": 16, "draw": 6, "goalsfor": 50, "goalsAgainst": 42, "points": 54 },
+        { "pos": 5, "team": "Tottenham", "played": 30, "win": 15, "draw": 6, "goalsfor": 56, "goalsAgainst": 43, "points": 51 },
+        { "pos": 6, "team": "Chelsea", "played": 30, "win": 14, "draw": 7, "goalsfor": 54, "goalsAgainst": 39, "points": 49 },
+        { "pos": 7, "team": "Man United", "played": 30, "win": 14, "draw": 6, "goalsfor": 49, "goalsAgainst": 40, "points": 48 },
+        { "pos": 8, "team": "Newcastle", "played": 30, "win": 13, "draw": 6, "goalsfor": 48, "goalsAgainst": 44, "points": 45 },
+        { "pos": 9, "team": "Brighton", "played": 30, "win": 12, "draw": 7, "goalsfor": 46, "goalsAgainst": 42, "points": 43 },
+        { "pos": 10, "team": "West Ham", "played": 30, "win": 11, "draw": 8, "goalsfor": 41, "goalsAgainst": 44, "points": 41 },
+        { "pos": 11, "team": "Crystal Palace", "played": 30, "win": 10, "draw": 9, "goalsfor": 39, "goalsAgainst": 42, "points": 39 },
+        { "pos": 12, "team": "Brentford", "played": 30, "win": 10, "draw": 7, "goalsfor": 42, "goalsAgainst": 46, "points": 37 },
+        { "pos": 13, "team": "Fulham", "played": 30, "win": 9, "draw": 9, "goalsfor": 38, "goalsAgainst": 44, "points": 36 },
+        { "pos": 14, "team": "Bournemouth", "played": 30, "win": 9, "draw": 7, "goalsfor": 37, "goalsAgainst": 46, "points": 34 },
+        { "pos": 15, "team": "Everton", "played": 30, "win": 8, "draw": 8, "goalsfor": 32, "goalsAgainst": 42, "points": 32 },
+        { "pos": 16, "team": "Nottingham Forest", "played": 30, "win": 8, "draw": 7, "goalsfor": 33, "goalsAgainst": 47, "points": 31 },
+        { "pos": 17, "team": "Wolves", "played": 30, "win": 7, "draw": 8, "goalsfor": 31, "goalsAgainst": 48, "points": 29 },
+        { "pos": 18, "team": "Luton", "played": 30, "win": 6, "draw": 7, "goalsfor": 34, "goalsAgainst": 55, "points": 25 },
+        { "pos": 19, "team": "Burnley", "played": 30, "win": 5, "draw": 7, "goalsfor": 28, "goalsAgainst": 54, "points": 22 },
+        { "pos": 20, "team": "Sheffield Utd", "played": 30, "win": 4, "draw": 6, "goalsfor": 25, "goalsAgainst": 60, "points": 18 }
+      ]
     },
-    "LaLiga": {
-        "name": "La Liga",
-        "logo": "/logos/logo.png",
-        "teams": [
-            { "pos": 1, "team": "Real Madrid", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 95 },
-            { "pos": 2, "team": "Barcelona", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 85 },
-            { "pos": 3, "team": "Girona", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 81 },
-            { "pos": 4, "team": "Atletico Madrid", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 76 },
-            { "pos": 18, "team": "Cadiz", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 28 },
-            { "pos": 19, "team": "Almeria", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 21 },
-            { "pos": 20, "team": "Granada", "played": 38, "win": 6, "draw": 4, "goalsfor": 96, "goalsAgainst": 34, "points": 21 }
-        ]
+
+    {
+      "id": "laliga",
+      "name": "La Liga",
+      "country": "Spain",
+      "season": "2025/26",
+      "logo": "/logos/competitions/laliga.png",
+      "table": [
+        { "pos": 1, "team": "Real Madrid", "played": 30, "win": 22, "draw": 5, "goalsfor": 70, "goalsAgainst": 25, "points": 71 },
+        { "pos": 2, "team": "Barcelona", "played": 30, "win": 21, "draw": 6, "goalsfor": 66, "goalsAgainst": 28, "points": 69 },
+        { "pos": 3, "team": "Atletico Madrid", "played": 30, "win": 18, "draw": 6, "goalsfor": 55, "goalsAgainst": 32, "points": 60 },
+        { "pos": 4, "team": "Girona", "played": 30, "win": 17, "draw": 6, "goalsfor": 57, "goalsAgainst": 36, "points": 57 },
+        { "pos": 5, "team": "Athletic Bilbao", "played": 30, "win": 16, "draw": 7, "goalsfor": 49, "goalsAgainst": 35, "points": 55 },
+        { "pos": 6, "team": "Real Sociedad", "played": 30, "win": 15, "draw": 7, "goalsfor": 44, "goalsAgainst": 33, "points": 52 },
+        { "pos": 7, "team": "Real Betis", "played": 30, "win": 14, "draw": 7, "goalsfor": 42, "goalsAgainst": 36, "points": 49 },
+        { "pos": 8, "team": "Villarreal", "played": 30, "win": 13, "draw": 7, "goalsfor": 47, "goalsAgainst": 41, "points": 46 },
+        { "pos": 9, "team": "Valencia", "played": 30, "win": 12, "draw": 8, "goalsfor": 40, "goalsAgainst": 39, "points": 44 },
+        { "pos": 10, "team": "Getafe", "played": 30, "win": 11, "draw": 8, "goalsfor": 36, "goalsAgainst": 38, "points": 41 },
+        { "pos": 11, "team": "Sevilla", "played": 30, "win": 10, "draw": 9, "goalsfor": 39, "goalsAgainst": 42, "points": 39 },
+        { "pos": 12, "team": "Osasuna", "played": 30, "win": 10, "draw": 7, "goalsfor": 35, "goalsAgainst": 41, "points": 37 },
+        { "pos": 13, "team": "Mallorca", "played": 30, "win": 9, "draw": 8, "goalsfor": 32, "goalsAgainst": 40, "points": 35 },
+        { "pos": 14, "team": "Celta Vigo", "played": 30, "win": 9, "draw": 7, "goalsfor": 34, "goalsAgainst": 44, "points": 34 },
+        { "pos": 15, "team": "Las Palmas", "played": 30, "win": 8, "draw": 8, "goalsfor": 31, "goalsAgainst": 42, "points": 32 },
+        { "pos": 16, "team": "Rayo Vallecano", "played": 30, "win": 7, "draw": 9, "goalsfor": 30, "goalsAgainst": 43, "points": 30 },
+        { "pos": 17, "team": "Alaves", "played": 30, "win": 7, "draw": 7, "goalsfor": 29, "goalsAgainst": 45, "points": 28 },
+        { "pos": 18, "team": "Cadiz", "played": 30, "win": 6, "draw": 8, "goalsfor": 27, "goalsAgainst": 46, "points": 26 },
+        { "pos": 19, "team": "Granada", "played": 30, "win": 5, "draw": 7, "goalsfor": 26, "goalsAgainst": 50, "points": 22 },
+        { "pos": 20, "team": "Almeria", "played": 30, "win": 4, "draw": 6, "goalsfor": 24, "goalsAgainst": 55, "points": 18 }
+      ]
     }
+  ]
 }
